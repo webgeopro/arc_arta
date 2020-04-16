@@ -1,0 +1,17 @@
+#content {
+    background: url("");
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#divEventsTopFon {
+    background: url("/images/main_fon_top_line.png");
+    height: 19px;
+}
+#divEventsMain {
+    background: #fff;
+    width: 1001px;
+    margin-left: 1px;
+    position: relative;
+    padding: 0;
+}

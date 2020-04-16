@@ -1,0 +1,77 @@
+body {
+    background: #4FC8E9 url('/images/luntik_fon.jpg') top left no-repeat;
+    min-height: 920px;
+
+}
+#page {
+    /*background: url('/images/mlada_fon.png') top left repeat-x;*/
+    margin: 0;
+    min-height: 920px;
+    position: relative;
+}
+#content {
+    /*background: url('/images/mlada_fon_l.jpg') top left no-repeat;*/
+    min-height: 920px;
+    width: 1100px;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    display: none;
+}
+#divBrandsMenu {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 800px;
+    height: 165px;
+    background: url('/images/m_logo.png') top left no-repeat;
+    cursor: pointer;
+}
+#divBrandsSubmenu {
+    position: absolute;
+    top: 66px;
+    left: 190px;
+    width: 700px;
+    height: 46px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#divBrandsSubmenu li {
+    display: inline-block;
+    margin-right: 5px;
+}
+#divBrandsText {
+    position: absolute;
+    top: 207px;
+    left: 34px;
+    width: 370px;
+    height: 600px;
+}
+#divBrandsText img{
+    margin-right: 10px;
+}
+#divBrandsText span p {
+    width: 300px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#divBrandsSlider {
+    position: absolute;
+    top: 430px;
+    left: 820px;
+    width: 495px;
+    min-height: 254px;
+}
+#divBrandsLogo {
+    position: absolute;
+    left: 1164px;
+    top: 230px;
+    width: 390px;
+    vertical-align: middle;
+}
+#divBrandsLogo img {
+    vertical-align: middle;
+}

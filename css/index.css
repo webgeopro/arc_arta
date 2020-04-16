@@ -1,0 +1,95 @@
+body {
+    background: #DBE9F8 url("/images/index_fon7.jpg") bottom center no-repeat ;
+    min-height: 1000px;
+    padding: 0;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+#logo {
+    margin: 15px auto;
+    width: 120px;
+    height: 180px;
+    background: url("/images/logo.png") top center no-repeat;
+    cursor: pointer;
+}
+#page {
+	margin: 0 auto;
+    min-height: 588px; /* 1010 */
+	position: relative;
+    padding: 0;
+}
+#divCow { /* Относительно #page */
+    background: url('/images/cow.png') bottom center no-repeat;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    /* top: 400px; 596 */
+    bottom: -212px; /* 596 */
+    left: 15px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#divCowHead { /* Относительно #divCow */
+    background: url('/images/cow_head2.png') center center no-repeat;
+    width: 397px;
+    height: 342px;
+    position: absolute;
+    top: 45px; /* 596 */
+    left: 170px;
+    overflow: hidden;
+}
+#footer
+{
+    margin: 0 auto;
+    padding: 0;
+	width: 100%;
+    height: 100px; /* 566 542 430*/
+    position: absolute;
+    bottom: 0;
+    background-color: #006600;display: none;
+	/*padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+    background:  url("/images/main_bottom_crop.jpg") bottom center no-repeat;*/
+
+}
+#content {
+    /*height: 1200px;
+    padding: 10px 15px;*/
+    padding: 0;
+    margin: 0 auto;
+    width: 863px;
+    background:  url("/images/content_fon.png") top center no-repeat;
+}
+#divMainFooter {
+    height: 105px;
+    width: 833px;
+    background:url('/images/novelty_footer.png') bottom center no-repeat;
+}
+/* Относительно #footer*/
+/*#divCowHead {
+    background: url('/images/cow_head2.png') center center no-repeat;
+    width: 397px;
+    height: 342px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 500px;
+}*/
+.rotatingWrapper {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#indexContent {
+    padding: 5px 10px 0 10px;
+    margin: 0;
+    
+    min-height: 349px;
+}

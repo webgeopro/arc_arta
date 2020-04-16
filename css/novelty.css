@@ -1,0 +1,25 @@
+#divMainNovelty {
+    background: #fff url('/images/novelty_fon.jpg') top center no-repeat;
+    width: 1002px;
+    margin: 0 auto;
+    min-height: 393px;
+    padding-bottom: 5px;
+}
+#divNoveltyTitle {
+    color: #7B1402;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+#divMainFooter {
+    height: 105px;
+    background:url('/images/novelty_footer.png') bottom center no-repeat;
+}
+.divNoveltyText {
+    margin:  5px auto;
+    width: 500px;
+    color: #7B1402;
+    text-align: center;
+    font-size: 14px;
+}

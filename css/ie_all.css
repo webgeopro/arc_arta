@@ -1,0 +1,5 @@
+div#page.container #divCow { /* Относительно #page */
+     /*top: 380px; /* 596 */
+    bottom: -202px;
+    left: 15px;
+}

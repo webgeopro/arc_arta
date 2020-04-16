@@ -1,0 +1,20 @@
+#mainmenu {
+    width: 825px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+}
+#ulMenu {
+    width: 100%;
+    padding: 0;
+}
+#ulMenu li, #ulSubMenu li {
+    margin: 0 3px;
+    display: inline-block;
+}
+#ulMenu li a {
+    text-decoration: none;
+}
+#ulSubMenu {
+    list-style: none;
+}

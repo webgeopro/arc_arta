@@ -1,0 +1,65 @@
+body {
+    background: url('/images/mlada_fon_r2.jpg') top right no-repeat;
+    min-height: 920px;
+
+}
+#page {
+    background: #fff;
+    margin: 0;
+    min-height: 920px;
+    position: relative;
+}
+#content {
+    background: url('/images/mlada_fon_2.jpg') top left no-repeat;
+    min-height: 920px;
+    width: 1100px;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    display: none;
+}
+#divBrandsMenu {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 800px;
+    height: 165px;
+    background: url('/images/m_logo.png') top left no-repeat;
+    cursor: pointer;
+}
+#divBrandsSubmenu {
+    position: absolute;
+    top: 66px;
+    left: 190px;
+    width: 700px;
+    height: 46px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#divBrandsSubmenu li {
+    display: inline-block;
+    margin-right: 5px;
+}
+#divBrandsText {
+    position: absolute;
+    top: 166px;
+    left: 400px;
+    width: 700px;
+    height: 260px;
+}
+#divBrandsText img{
+    margin-right: 10px;
+}
+#divBrandsText span {
+    padding-left: 30px;
+}
+#divBrandsSlider {
+    position: absolute;
+    top: 460px;
+    left: 660px;
+    width: 495px;
+    min-height: 254px;
+}
+
